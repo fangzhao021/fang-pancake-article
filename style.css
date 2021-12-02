@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Open+Sans&display=swap');
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Inconsolata&family=Open+Sans&display=swap');
+
+body {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+div {
+  display: block;
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: rgb(220,220,220);
+  font-size: 30px;
+}
+
+h2 {
+  color: #142F43;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'EB Garamond', serif;
+  color: #334756;
+  font-size: 20px;
+  }
+
+#sub-text {
+  color: rgb(220,220,220);
+  font-size: 24px;
+  }
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #dce1e4;
+  }
+
+a:hover {
+  color: #753422;
+}
+
+.container {
+  padding: 16px;
+  margin: 50px auto;
+  width: 600px;
+}
+
+.link-medium {
+  background-color: #19303a;
+  padding: 8px 24px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.link-medium:hover {
+  background-color: #a6aca1;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.list-inline {
+  list-style: disc;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  font-family: 'EB Garamond', serif;
+  color: #334756;
+  font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 950px;
+    }
+  }
+
+@media (max-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
